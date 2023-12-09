@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Valeria Esperanza">
+    <meta name="description" content="La cultura asiática">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Valeria Esperanza| La cultura asiática</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/l2.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/l2.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Cultura Japonesa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Cultura Coreana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Cultura China</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/mia.jpeg" alt="Foto de Valeria Esperanza">
+        <h1>Hola, soy Valeria Esperanza</h1>
+       <h2>Conocer sobre la cultura asiática es un gran viaje de conocimiento</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/k1.JPG" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="1000px" height="1100px">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce la cultura asiática y sus maravillas</h2>
+        <p class="seccion-texto">Hablar un idioma es asumir un mundo, una cultura</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="imagenes/v1.mp4" width="500" height="500" text-aligen="" autoplay controls>Cultura Japonesa</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Japón</p>
+            <p>La cultura japonesa es muy rica y diferente a la del resto de Asia y del mundo. 
+               Dicha cultura se manifiesta de múltiples maneras: música, cine, gastronomía y literatura, entre otras.</p>
+            <p>Además, Japón es un país en el que se fusionan la modernidad y las tradiciones, que siguen muy presentes en su día a día, como puede verse en sus famosos matsuri (festivales).</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Educados</span>
+              <span class="badge text-bg-primary">Tímidos</span>
+              <span class="badge text-bg-primary">Amables</span>
+              <span class="badge text-bg-primary">Trabajadores</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Corea</p>
+            <p>La cultura de Corea del Sur es una expresión milenaria que se encuentra presente en su estilo de vida y costumbres más ancestrales, 
+               que otorgan un lugar preferencial a la familia y el respeto a los antepasados.</p>
+            <p>Y aunque su apego a la tradición es una de las principales características de su pueblo, 
+               esto no ha impedido que el país sueñe con el futuro y apunte sin titubeos hacia una vida moderna, llena de avances nunca antes vistos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Respetuosos</span>
+              <span class="badge text-bg-primary">Trabajadores</span>
+              <span class="badge text-bg-primary">Guapos</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">China</p>
+            <p>La cultura de China es un mosaico de tradiciones ancestrales de más de cinco mil años de historia que continúa asombrando a quienes se acercan a conocer los misterios de este país asiático.</p>
+              <p>Sus ciudadanos se han extendido a través de todo el mundo llevando consigo una parte de su legado, 
+              por lo que su cultura cada vez está más asentada en naciones con un estilo de vida totalmente distinto a los de la comunidad china.</p>
+              <p>Son un pueblo que profesa mucho respeto por sus tradiciones, sus antepasados y la familia. También son muy espirituales, supersticiosos y miran con frecuencia a las estrellas en busca de guía.              
+              </p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Calmados</span>
+              <span class="badge text-bg-primary">Reservados</span>
+              <span class="badge text-bg-primary">Serios</span>
+              <span class="badge text-bg-primary">Respetuosos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Cultura Coreana</h2>
+      <h3 class="seccion-descripcion">¡El éxito es un disparo y el fracaso es una prácta!</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/L1.JPG" alt="L1">
+              <p>Los surcoreanos no son personas públicamente afectivas, por lo que no ofrecen la mano, ni dan besos al conocer a alguien o saludar. 
+                En estos casos optan por hacer una reverencia. Tampoco tienden a besarse o abrazarse en público con sus parejas, 
+                ya que este comportamiento tan natural en países occidentales, no está bien visto en Corea del Sur.</p>
+                <P>Les gusta disfrutar de la comida en silencio y dejar la conversación para la sobremesa. No acostumbran a dar propina a ningún servicio prestado.</P>
+                <P>Los surcoreanos toman cerveza con frecuencia, pero su bebida favorita es el soju, un licor cristalino hecho a base de arroz, similar al vodka. 
+                También son muy supersticiosos y, a contrario a algunos países occidentales donde se considera el 13 de mala suerte, para ellos es el número 4 el que no quieren ver ni de lejos.
+                </p>
+              <div class="overlay">
+                <p>Costumbres</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/M1.jpg" alt="k1">
+                            <p>El hanbok:
+                              Este es el traje típico de Corea del Norte y, aunque la mayoría de los surcoreanos visten al estilo occidental, aún veneran esta prenda de vestir que los mantiene unidos a su historia. 
+                              Se suele utilizar en presentaciones artísticas, bodas y celebraciones nacionales.</p>
+                             <p>Jesa:
+                              Jesa es cualquier ceremonia que se realice a quienes ya no están en este mundo. 
+                              De hecho, el ritual adquiere más profundidad al conocer la creencia surcoreana de que el espíritu de los parientes fallecidos permanece en la tierra durante cuatro generaciones más.</p>
+                              <p>Chuseok:
+                              Se trata del día de Acción de Gracias en Corea del Sur. Se festeja en septiembre, durante el décimoquinto día del octavo mes lunar.
+                              <p>Año Nuevo de Corea del Sur:
+                              También conocido como Seollal, es una actividad realizada en el primer día del calendario lunar que sirve para cerrar ciclos y establecer las nuevas metas para el nuevo año que inicia.</p>
+                              Día blanco:
+                              Cada 14 de marzo, exactamente un mes después de Día de San Valentín, los hombres entregan a sus novias regalos de color blanco en agradecimiento por sus obsequios del 14 de febrero.
+                              <P>Día Negro: 
+                              El hecho de que se le llame “negro” resalta la importancia que esta cultura le otorga a la unión matrimonial, remarcando lo oscuro y triste que es no tener pareja o la imposibilidad de formar un hogar en un futuro cercano.
+                              <p>Cambio de la guardia de honor:
+                              Es una actividad que encanta a propios y extraños. Se trata del cambio de la guardia de honor de los palacios de la dinastía Joseon (1392-1910) que se encuentran en Seúl.
+                               </p>
+              <div class="overlay">
+                <p>Tradiciones</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.jpg" alt="Proyecto 3">
+              <p>La cocina surcoreana se caracteriza por sus ingredientes frescos, con platos elaborados a base de arroz, vegetales, carnes y algas. 
+                Esta cocina tiende a usar menos grasa que sus vecinos China y Japón, y además fusiona con frecuencia el uso de fermentos para realzar el sabor de sus comidas.</p>
+                <p>Soja fermentada:
+                Esta tendencia al sabor agrio se encuentra presente en la gastronomía surcoreana a través del uso del jang, conocido como el condimento básico de esta tierra, 
+                el cual proviene de la fermentación de la soja.</p>
+                <p>Kimchi:
+                Este emblemático plato de Corea del Sur, está hecho con col china fermentada que puede mantenerse en conserva para su uso en el momento preciso, 
+                ya que se coloca en frascos que son llevados al refrigerador durante meses para que fermenten. Según expertos, mientras más agrio, mejor.</p>
+                <p>Bibimbap:
+                Esto significa literalmente “comida mezclada” y la elaboración del plato hace honor a su nombre.</p>
+                <p>Jajangmyeon:
+                Consiste en un plato de fideos gruesos de trigo, cubiertos con una salsa oscura hecha con salsa de frijol negro, carne o mariscos, además de verduras cortada en dados.</p>
+                <p>Gomguk:
+                También conocida bajo del nombre de Gomtang, es una sopa elaborada con varios tipos de carne de ternera, como costillas, 
+                falda y rabo, la cual adquiere un aspecto lechoso de sabor y aroma muy profundo.</p>
+                <p>Jjim:
+                Este no es un plato específico, ya que el Jjim es realmente el término utilizado para ciertos platos elaborados al vapor.
+                </p>
+              <div class="overlay">
+                <p>Gastronomía</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.jpg" alt="Proyecto 4">
+              <p>En Corea del Sur, el cristianismo ocupa la principal preferencia de fe entre los creyentes. Se estima que la Iglesia Protestante, con todas sus vertientes, 
+                 supera a la católica que queda en tercer lugar después del budismo.</p>
+                <p>Estas creencias, sin embargo, son superadas en su mayoría por quienes rechazan pertenecer a cualquier tipo de religión.
+                Existen además otras religiones minoritarias, entre las que se cuentan el islam, el jeungismo, el daesunismo, el cheondonismo y el budismo won.</p>
+              <div class="overlay">
+                <p>Religión</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.jpg" alt="Proyecto 5">
+              <p>La música tradicional no pierde su lugar en Corea del Sur, pero este gigante asiático cuenta con un poderoso género musical que ha traspasado las fronteras del país y del lenguaje, 
+                ganando millones de adeptos en todo el mundo. Nos referimos al pop coreano, mejor conocido como K-pop.</p>
+                <p>En la década de 1990 comenzaron a escucharse las primeras incursiones de este estilo musical que combina el pop, 
+                dance, balada pop, música electrónica, rock, heavy metal, hip hop y R&B.</p>
+              <div class="overlay">
+                <p>Música</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.jpg" alt="Proyecto 6">
+              <p>Una de las curiosidades de Corea del Sur es que las mujeres de este país son unas increíbles jugadoras de golf. De las 100 mejores del mundo, 38 son surcoreanas. 39.</p> 
+              <p>En Corea del Sur hace mucho que no se ve un tigre de Amur, pero en la mitología coreanas se le atribuyen poderes como proteger a las personas y mantener las fuerzas del mal a raya.</p>
+              <div class="overlay">
+                <p>Curiosidades</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://koreankulture.com/cultura-coreana/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más puntos de vista...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.tripadvisor.com.mx/Attractions-g294196-Activities-South_Korea.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Lugares para visitar en Corea del sur
+            </li>
+          </a>
+          <a href="https://japon-secreto.com/que-ver-en-japon/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Los lugares más visitados en Japón
+            </li>
+          </a>
+          <a href="https://www.nationalgeographicla.com/viajes/2023/06/los-10-paises-mas-visitados-del-mundo" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Cuál es el país más visitado por los extranjeros?
+            </li>
+          </a>
+          <a href="https://elblogdelviajero.com/los-12-mejores-destinos-gastronomicos-de-asia/#:~:text=Aqu%C3%AD%20est%C3%A1n%20nuestras%20mejores%20selecciones%20como%20los%2012,con%20m%C3%A1s%20de%20200%20restaurantes%20con%20estrellas%20Michelin." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Recomendaciones gastronomícas 
+            </li>
+          </a>
+          <a href="https://www.univision.com/explora/7-extranos-y-poco-conocidos-datos-sobre-asia" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Datos curiosos sobre la cultura asiática
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://supercurioso.com/curiosidades-de-corea-del-sur/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Cultura China</h2>
+      <h3 class="seccion-descripcion">"Antes de ser un dragón, hay que sufrir como una hormiga"</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/p4.jpg" alt="primero">
+              <p class="testimonio-texto">El Año Nuevo Chino: Contrario a la costumbre de Occidente, el Año Nuevo Chino no se celebra el 31 de diciembre, sino el primer día del primer mes lunar, 
+                basándose en el calendario lunar que varía de año en año. Esto podría establecerse entre el 21 de enero y el 20 de febrero, de acuerdo al calendario gregoriano.</p>
+              <div class="testimonio-info">
+                <p class="cliente">TRADICIONES</p>
+                <p class="cargo">Festival de Qingming: También conocido como el Día de los Difuntos o Día de las Tumbas, 
+                  el Qingming es un periodo de tres días que los chinos usan para honrar a sus fallecidos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/p2.jpg" alt="segundo">
+              <p class="testimonio-texto">El té chino: Por tratarse de una cultura milenaria, la mayoría de las costumbres chinas también forman parte de las tradiciones ancestrales, un ejemplo de esto es el ritual del té chino.
+                </p>
+              <div class="testimonio-info">
+                <p class="cliente">COSTUMBRES</p>
+                <p class="cargo">Hábitos sociales: Los chinos acostumbran a quitarse los zapatos al entrar en cualquier casa, ya sea propia o ajena; 
+                                 En china es de mala educación señalar apuntando con un dedo. Si es inevitable hacerlo, lo más aceptado es usar la mano completa con la palma hacía arriba.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/p3.jpg" alt="tercero">
+              <p class="testimonio-texto">La cocina china se caracteriza por el empleo de vegetales, mariscos, además de cereales como el arroz, el trigo y el maíz. </p>
+              <div class="testimonio-info">
+                <p class="cliente">GASTRONOMÍA</p>
+                <p class="cargo">Sopa de aleta de tiburón; Lo mein; Carpa agridulce; Dim sum; Tom Yuen; Pato laqueado a la pequinesa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos compartir puntos de vista y así mismo podemos encontrar tu amigo fiel.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="vmacedosanchez77@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/k3.jpg"  alt="Logo del portafolio">
+      <p class="footer-texto text-center">“Todos los viajes tienen destinos secretos sobre los que el viajero nada sabe”<br>“Un viaje se mide mejor en amigos que en millas”</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Valeria Esperanza </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
